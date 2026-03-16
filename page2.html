@@ -27,10 +27,34 @@ font-size: 30px;
 	margin: 20px;
 	text-align: center;
 }
-body{background-image: url(hanss-releasing-dove.jpg) ;
-	background-size:cover;
-	background-repeat:no-repeat;
+body{
+    font-family: 'Georgia', serif; 
+    line-height: 1.8; 
+    margin: 0; 
+    padding: 0; 
+    color: #333; 
+    background-color: #fdfaf1;
+
+    background-image: 
+        linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+        url("Logo.jpg");
+
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-size: 33% auto;
 }
+        /* Student Info: Low opacity and 3cm gap */
+        .student-info {
+            position: fixed;
+            right: 3cm; 
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: right;
+            color: rgba(0, 0, 0, 0.3); 
+            font-weight: bold;
+            font-size: 1.1rem;
+            z-index: 1000;
+            pointer-events: none;}
 </style>
    <body>
     <h1> Spiritual And Faith Traditions as Resources of Peace </h1>
@@ -216,4 +240,8 @@ primary goal of all religious traditions, which is the pursuit of
 peace, and urge us to adopt the ideas and ideals they uphold.</i></p>
 </body>
 <a href="index.html" class="next-btn">Back to Page 1</a>
+ <div class="student-info">
+    Dungca John Albert R. <br>
+    25-03103
+    </div>
 </html>

@@ -27,9 +27,34 @@ font-size: 30px;
 	margin: 20px;
 	text-align: center;
 }
-body{background-image: url(hanss-releasing-dove.jpg) ;
-	background-size:cover;
-	background-repeat:no-repeat;
+body{
+    font-family: 'Georgia', serif; 
+    line-height: 1.8; 
+    margin: 0; 
+    padding: 0; 
+    color: #333; 
+    background-color: #fdfaf1;
+
+    background-image: 
+        linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+        url("Logo.jpg");
+
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-size: 33% auto;
+}
+        /* Student Info: Low opacity and 3cm gap */
+        .student-info {
+            position: fixed;
+            right: 3cm; 
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: right;
+            color: rgba(0, 0, 0, 0.3); 
+            font-weight: bold;
+            font-size: 1.1rem;
+            z-index: 1000;
+            pointer-events: none;}
 }
 </style>
 </head>
@@ -198,6 +223,10 @@ peace because of his mischief making.
 Show compassion to those on earth, so that He who is in heaven 
 may show His mercy on you.</mark></p>
 
+ <div class="student-info">
+    Dungca John Albert R. <br>
+    25-03103
+    </div>
 
 </body>
 <a href="page2.html" class="next-btn">Next Page</a>
